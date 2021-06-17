@@ -1,0 +1,11 @@
+server:
+  port: 7000
+
+spring:
+  application:
+    name: credit-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.16.3.145:8848
+
